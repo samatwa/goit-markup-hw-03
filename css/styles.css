@@ -36,7 +36,7 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
-/* #endregion
+/* #endregion */
 
 /* #region Common */
 .visually-hidden {
@@ -74,6 +74,11 @@ body {
   color: #f4f4fd;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
 /* #endregion */
 
 /* #region Card set */
@@ -126,7 +131,7 @@ body {
 .header-nav {
   display: flex;
   align-items: center;
-  margin-right: 332px;
+  margin-right: auto;
   flex-grow: 1;
   justify-content: space-between;
 }
@@ -193,12 +198,6 @@ body {
 }
 
 /* #endregion */
-
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
 
 /* #region Hero */
 .hero {
@@ -296,7 +295,6 @@ body {
 }
 
 .team-name {
-  padding-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -307,7 +305,6 @@ body {
 }
 
 .team-position {
-  padding: 0 0 32px 0;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
